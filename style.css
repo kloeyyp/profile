@@ -1,29 +1,53 @@
 /*Fonts and Colors Only*/
 
 body {
-  background-color: #23001E;
+  background-color: rgb(20, 20, 20);
+  font-family: Helvetica;
+  font-size: 18px;
 }
 
 .banner {
-  color: rgb(72, 75, 72);
+  color: rgb(216, 29, 200);
   /*background-image: url(images/about.jpg);*/
   background-size: cover;
   text-align: center;
-  padding: 150px 0;
+  padding: 50px 20px;
 }
 
 .banner h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+  font-size: 50px;
+  margin: -70px;
+  padding: 80px;
 }
 
 .banner h3 {
   font-family: 'M PLUS 1p', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  padding: 20px;
 }
 
 
 /*Custom CSS*/
+
+.banner .img-circle {
+  border-radius: 8%;
+  padding: 40px;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb();
+  padding: 30px;
+  border: 1px solid lightgrey;
+  opacity: 0.8;
+  margin: 20px;
+
+}
+
+#about {
+  padding: 50px 20px;
+}
 
 #banner {
   background-image: url(image/banner.jpeg);
@@ -33,17 +57,38 @@ body {
   color: white;
 }
 
+#btn-blue {
+  padding: 20px;
+  margin: 30px;
+  background-color: white;
+  color: rgb(216, 29, 200);
+  border-radius: 30%;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  opacity: 0.8;
+  transition-duration: 0.4s;
+}
+
+#btn-blue:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 #sns-icons {
   text-align: center;
+  margin: 20px;
 }
 
 #sns-icons a {
-  font-size: 20px;
-  color: white;
+  font-size: 30px;
+  color: rgb(216, 29, 200);
+  padding: 50px;
 }
 
 #sns-icons a:hover {
     text-decoration: none;
-    color: rgb(110, 109, 110);
+    color: rgb(200, 25, 150);
 }
 
