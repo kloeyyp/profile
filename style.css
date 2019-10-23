@@ -1,0 +1,49 @@
+/*Fonts and Colors Only*/
+
+body {
+  background-color: #23001E;
+}
+
+.banner {
+  color: rgb(72, 75, 72);
+  /*background-image: url(images/about.jpg);*/
+  background-size: cover;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+}
+
+.banner h3 {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-size: 30px;
+}
+
+
+/*Custom CSS*/
+
+#banner {
+  background-image: url(image/banner.jpeg);
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+
+#sns-icons {
+  text-align: center;
+}
+
+#sns-icons a {
+  font-size: 20px;
+  color: white;
+}
+
+#sns-icons a:hover {
+    text-decoration: none;
+    color: rgb(110, 109, 110);
+}
+
